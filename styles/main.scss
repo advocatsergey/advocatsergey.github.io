@@ -157,7 +157,7 @@ footer {
     border-bottom: 2px solid silver;
 }
 .network i {
-    border: 2px solid #bcbcc4;
+    border: 2px solid #bda87f;
     text-align: center;
     display: flex;
     align-items: center;
@@ -511,6 +511,9 @@ strong {
     color: #676767;
     margin: 10px 0 3px;
   }
+  a{
+    color: #676767;
+  }
   a:hover {
     color: #bda87f;
   }
@@ -598,5 +601,9 @@ strong {
 @media screen and(max-width: 640px) {
   .navbar-collapse{
     display: none;
+  }
+  .outline-bordered-text-right :after{
+    bottom: -25px!important;
+    height: 125%!important;
   }
 }
