@@ -128,12 +128,12 @@ a:hover{
       }
       .circle-option { 
           i {
-        font-size: 35px;
+        font-size: 25px;
         color: #bda87f;
         border: 6px solid #bda87f;
         border-radius: 50%;
-        height: 90px;
-        width: 90px;
+        height: 70px;
+        width: 70px;
         text-align: center;
         display: flex;
         align-items: center;
@@ -145,6 +145,7 @@ a:hover{
         opacity: .2;
       }
 }
+
 
 
 
@@ -434,7 +435,7 @@ strong {
   transform: rotateX(0) rotateY(0);
   img {
     width: 100%;
-    height: 400px;
+    height: 290px;
   }
 }
 
@@ -460,6 +461,7 @@ strong {
   transition-delay: .1s;
   transform: translateY(0) scale(0);
   color: #fff;
+  font-size: 16px!important;
 }
 
 .project__title {
@@ -591,4 +593,10 @@ strong {
   padding: 12px 17px;
   background: 0 0;
   border: 2px solid #bda87f !important
+}
+
+@media screen and(max-width: 640px) {
+  .navbar-collapse{
+    display: none;
+  }
 }
